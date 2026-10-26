@@ -7,7 +7,8 @@
   "scripts": {
     "test": "node --test test/*.test.cjs",
     "relay": "node relay.cjs",
-    "probe": "node tools/probe.cjs"
+    "probe": "node tools/probe.cjs",
+    "probe:live": "node tools/probe-live.cjs"
   },
   "engines": {
     "node": ">=18"
