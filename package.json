@@ -1,0 +1,18 @@
+{
+  "name": "thunder-watch-together",
+  "version": "0.1.0",
+  "private": true,
+  "description": "迅雷云盘双人同步观看实验插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "relay": "node relay.cjs",
+    "probe": "node tools/probe.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "8.22.0"
+  }
+}

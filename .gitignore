@@ -1,0 +1,13 @@
+node_modules/
+work/
+outputs/
+.env
+.env.*
+*.log
+*.zip
+*.bak
+*.tmp
+静态兼容性.json
+逆向证据.json
+验证结果.txt
+依赖检查.json
